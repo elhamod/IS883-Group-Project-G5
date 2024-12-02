@@ -5,7 +5,7 @@ from langchain.agents import AgentExecutor, create_tool_calling_agent, create_re
 from langchain import hub
 
 # Show title and description.
-st.title("💬 Chatbot")
+st.title("💬 Financial Support Chatbot")
 
 ### Important part.
 # Create a session state variable to flag whether the app has been initialized.
@@ -31,6 +31,17 @@ if "memory" not in st.session_state: ### IMPORTANT.
         return "Today is " + str(date.today())
 
     tools = [datetoday]
+
+
+    ### Adding subproducts
+    catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
+    "Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
+    "Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
+    "Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
+    "Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
+    "Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
+]
+    
     
     # Now we add the memory object to the agent executor
     # prompt = hub.pull("hwchase17/react-chat")
@@ -38,7 +49,7 @@ if "memory" not in st.session_state: ### IMPORTANT.
     from langchain_core.prompts import ChatPromptTemplate
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", "You are a helpful assistant."),
+            ("system", f"You are a financial expert who classifies customer complaints based on these possible categories: {catsubpro}. Respond with the exact category as written there."),
             ("placeholder", "{chat_history}"),
             ("human", "{input}"),
             ("placeholder", "{agent_scratchpad}"),
