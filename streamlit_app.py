@@ -41,7 +41,7 @@ if "memory" not in st.session_state: ### IMPORTANT.
     "Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
     "Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
 ]
-    
+    st.write(f"Categories: {catsubpro}")
     
     # Now we add the memory object to the agent executor
     # prompt = hub.pull("hwchase17/react-chat")
@@ -72,8 +72,6 @@ if prompt := st.chat_input("What is up?"):
 
     # Generate a response using the OpenAI API.
     response = st.session_state.agent_executor.invoke({"input": prompt})['output']
-    if response not in catsubpro:
-        response = "I do not know"  
 
     # response
     st.chat_message("assistant").write(response)
