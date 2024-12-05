@@ -50,7 +50,7 @@ if "memory" not in st.session_state: ### IMPORTANT.
     from langchain_core.prompts import ChatPromptTemplate
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", f"You are a financial expert. Classify customer complaints strictly based on these possible categories. Respond with exactly one category from the following list, without explanation or additional text: {', '.join(catsubpro)}"),
+            ("system", f"You are a financial expert. Classify customer complaints strictly based on these possible categories. Respond with exactly one category from the following list:{catsubpro}, Do not include an explanation or additional text"),
             ("placeholder", "{chat_history}"),
             ("human", "{input}"),
             ("placeholder", "{agent_scratchpad}"),
