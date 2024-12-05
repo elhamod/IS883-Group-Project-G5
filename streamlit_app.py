@@ -7,6 +7,18 @@ from langchain import hub
 # Show title and description.
 st.title("💬 Financial Support Chatbot")
 
+### Adding subproducts
+catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
+"Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
+"Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
+"Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
+"Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
+"Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
+]
+st.write(f"Categories: {catsubpro}")
+
+
+
 ### Important part.
 # Create a session state variable to flag whether the app has been initialized.
 # This code will only be run first time the app is loaded.
@@ -38,7 +50,7 @@ if "memory" not in st.session_state: ### IMPORTANT.
     from langchain_core.prompts import ChatPromptTemplate
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", "You are a financial expert. Classify customer complaints strictly based on these possible categories. Respond with exactly one category from the following list, without explanation or additional text: {', '.join(catsubpro)}"),
+            ("system", f"You are a financial expert. Classify customer complaints strictly based on these possible categories. Respond with exactly one category from the following list, without explanation or additional text: {', '.join(catsubpro)}"),
             ("placeholder", "{chat_history}"),
             ("human", "{input}"),
             ("placeholder", "{agent_scratchpad}"),
@@ -47,15 +59,6 @@ if "memory" not in st.session_state: ### IMPORTANT.
     agent = create_tool_calling_agent(chat, tools, prompt)
     st.session_state.agent_executor = AgentExecutor(agent=agent, tools=tools,  memory=st.session_state.memory, verbose= True)  # ### IMPORTANT to use st.session_state.memory and st.session_state.agent_executor.
 
-### Adding subproducts
-catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
-"Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
-"Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
-"Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
-"Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
-"Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
-]
-st.write(f"Categories: {catsubpro}")
 
 # Display the existing chat messages via `st.chat_message`.
 for message in st.session_state.memory.buffer:
@@ -70,13 +73,8 @@ if prompt := st.chat_input("What is up?"):
     st.chat_message("user").write(prompt)
 
     # Generate a response using the OpenAI API.
-    #response = st.session_state.agent_executor.invoke({"input": prompt})['output']
-    response = st.session_state.agent_executor.invoke({
-        "input": prompt,
-        "catsubpro": ", ".join(catsubpro) 
-    })['output']
-
-
+    response = st.session_state.agent_executor.invoke({"input": prompt})['output']
+    
     # response
     st.chat_message("assistant").write(response)
     # st.write(st.session_state.memory.buffer)
