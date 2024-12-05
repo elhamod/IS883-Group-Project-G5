@@ -31,17 +31,6 @@ if "memory" not in st.session_state: ### IMPORTANT.
         return "Today is " + str(date.today())
 
     tools = [datetoday]
-
-
-    ### Adding subproducts
-    catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
-    "Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
-    "Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
-    "Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
-    "Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
-    "Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
-]
-    st.write(f"Categories: {catsubpro}")
     
     # Now we add the memory object to the agent executor
     # prompt = hub.pull("hwchase17/react-chat")
@@ -57,6 +46,16 @@ if "memory" not in st.session_state: ### IMPORTANT.
     )
     agent = create_tool_calling_agent(chat, tools, prompt)
     st.session_state.agent_executor = AgentExecutor(agent=agent, tools=tools,  memory=st.session_state.memory, verbose= True)  # ### IMPORTANT to use st.session_state.memory and st.session_state.agent_executor.
+
+### Adding subproducts
+catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
+"Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
+"Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
+"Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
+"Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
+"Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
+]
+st.write(f"Categories: {catsubpro}")
 
 # Display the existing chat messages via `st.chat_message`.
 for message in st.session_state.memory.buffer:
