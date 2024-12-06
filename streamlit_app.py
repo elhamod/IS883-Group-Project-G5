@@ -8,13 +8,20 @@ from langchain import hub
 st.title("💬 Financial Support Chatbot")
 
 ### Adding subproducts
-catsubpro = [    "Credit reporting",    "I do not know",    "General-purpose credit card or charge card",    "Checking account",    "Credit card debt",    "Other debt",
-"Conventional home mortgage",    "Loan",    "Store credit card",    "Telecommunications debt",    "Federal student loan servicing",    "Rental debt",    "Other personal consumer report",
-"Medical debt",    "Savings account",    "Private student loan",    "Other banking product or service",    "Auto debt",    "FHA mortgage",    "General-purpose prepaid card",    "VA mortgage",    "Lease",
-"Payday loan debt",    "Home equity loan or line of credit (HELOC)",    "CD (Certificate of Deposit)",    "Government benefit card",    "Mortgage debt",    "Gift card",
-"Installment loan",    "Private student loan debt",    "Other type of mortgage",    "Federal student loan debt",    "Personal line of credit",    "Reverse mortgage",    "USDA mortgage",
-"Manufactured home loan",    "Payroll card",    "Payday loan",    "Title loan",    "Student prepaid card",
-]
+catsubpro = ['Credit card debt', 'Credit reporting', 'Conventional home mortgage', 'Checking account', 'Domestic (US) money transfer', 'FHA mortgage', 'Credit repair services',
+ 'Other type of mortgage', 'General-purpose credit card or charge card', 'Home equity loan or line of credit (HELOC)', 'Loan', 'Other debt', 'General-purpose prepaid card',
+ 'Lease', 'Medical', 'Personal line of credit', 'Other personal consumer report', 'Private student loan', 'Conventional fixed mortgage', 'Medical debt', 'Mobile or digital wallet',
+ 'I do not know', 'Other bank product/service', 'International money transfer', 'Vehicle loan', 'Other (i.e. phone, health club, etc.)', 'Credit card', 'VA mortgage',
+ 'Payday loan', 'Store credit card', 'Federal student loan servicing', 'Savings account', 'CD (Certificate of Deposit)', 'Installment loan', 'Other mortgage',
+ 'Other banking product or service', 'Vehicle lease', 'Auto debt', 'Conventional adjustable mortgage (ARM)', 'Payday loan debt', 'Virtual currency', 'Reverse mortgage',
+ 'Federal student loan debt', "Traveler's check or cashier's check", 'Cashing a check without an account', 'Payroll card', 'Non-federal student loan', 'Government benefit card',
+ 'Mortgage debt', 'Private student loan debt', 'Title loan', 'ID prepaid card', 'Federal student loan', 'Auto', 'Home equity loan or line of credit', 'Mortgage',
+ 'Debt settlement', 'General purpose card', 'Government benefit payment card', 'Mobile wallet', 'Check cashing', 'Money order', '(CD) Certificate of deposit', 'Check cashing service',
+ 'Pawn loan', 'Refund anticipation check', 'Telecommunications debt', 'Rental debt', 'Gift or merchant card', 'Foreign currency exchange', 'Gift card', 'Credit repair',
+ 'Other special purpose card', 'Transit card', 'Traveler’s/Cashier’s checks', 'Electronic Benefit Transfer / EBT card', "Money order, traveler's check or cashier's check",
+ 'USDA mortgage', 'Mortgage modification or foreclosure avoidance', 'Manufactured home loan', 'Student prepaid card', 'Other advances of future income', 'Student loan debt relief',
+ 'Earned wage access', 'Tax refund anticipation loan or check']
+
 st.write(f"Categories: {catsubpro}")
 
 
