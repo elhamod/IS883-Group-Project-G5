@@ -23,7 +23,7 @@ st.write(f"Categories: {catsubpro}")
 # Create a session state variable to flag whether the app has been initialized.
 # This code will only be run first time the app is loaded.
 if "memory" not in st.session_state: ### IMPORTANT.
-    model_type="gpt-4o-mini"
+    model_type="gpt-4o"
 
     # initialize the momory
     max_number_of_exchanges = 10
