@@ -17,13 +17,13 @@ from langchain import hub
 st.title("💬 Financial Support Chatbot")
 ### Adding subproducts
 url = "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv"
-st.write(url)
+#st.write(url)
 
 # Load the dataset if a valid URL is provided
 if url:
     try:
         df1 = pd.read_csv(url)
-        st.write(df1)
+        #st.write(df1)
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
@@ -271,7 +271,7 @@ if (
 
         # Invoke agent to create Jira task
         result = agent_executor.invoke({"input": question})
-        st.write(f"Agent execution result: {result}")  # Debugging step
+        #st.write(f"Agent execution result: {result}")  # Debugging step
         st.success(f"Jira task created successfully for the issue: {assigned_issue}")
 
         # Store Jira task details in session state
