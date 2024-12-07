@@ -195,10 +195,10 @@ if st.session_state.identified_product:
     st.sidebar.write(f"Stored Product: {st.session_state.identified_product}")
 if "identified_subproduct" in st.session_state:
     st.sidebar.write(f"Stored Subproduct: {st.session_state.identified_subproduct}")
-    st.sidebar.write(f"Subproduct Identification Source: {subproduct_source}")
+    #st.sidebar.write(f"Subproduct Identification Source: {subproduct_source}")
 if "identified_issue" in st.session_state:
     st.sidebar.write(f"Stored Issue: {st.session_state.identified_issue}")
-    st.sidebar.write(f"Issue Identification Source: {issue_source}")
+    #st.sidebar.write(f"Issue Identification Source: {issue_source}")
 
 
 ############Addign Jira
