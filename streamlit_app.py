@@ -229,7 +229,7 @@ if (
         # Extract user description from memory buffer
         if st.session_state.memory.buffer:
             user_description = st.session_state.memory.buffer[-1].content.strip()  # Latest user message
-            st.write(f"User description extracted: {user_description}")  # Debugging step
+            #st.write(f"User description extracted: {user_description}")  # Debugging step
         else:
             st.error("Memory buffer is empty. Cannot extract user description.")
             raise ValueError("Memory buffer is empty.")
@@ -241,7 +241,7 @@ if (
 
         # Create the assigned issue summary
         assigned_issue = f"Issue with {product} - {subproduct}: {issue}"
-        st.write(f"Assigned issue: {assigned_issue}")  # Debugging step
+        #st.write(f"Assigned issue: {assigned_issue}")  # Debugging step
 
         # Define task creation question for the model
         question = (
