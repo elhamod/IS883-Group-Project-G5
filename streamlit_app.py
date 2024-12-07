@@ -180,12 +180,12 @@ if prompt := st.chat_input("How can I help?"):
             st.write("The issue was not directly identified by the model. The most general category was selected.")
 
         # For troubleshooting purposes, print the identified product, subproduct, and issue
-        st.write("Troubleshooting: Identified Product, Subproduct, and Issue")
-        st.write(f"Product: {identified_product}")
-        st.write(f"Subproduct: {identified_subproduct if identified_subproduct else 'No subproduct identified'}")
-        st.write(f"Issue: {identified_issue if identified_issue else 'No issue identified'}")
-        st.write("Troubleshooting: List of issues for the identified product and subproduct:")
-        st.write(issues)
+        #st.write("Troubleshooting: Identified Product, Subproduct, and Issue")
+        #st.write(f"Product: {identified_product}")
+        #st.write(f"Subproduct: {identified_subproduct if identified_subproduct else 'No subproduct identified'}")
+        #st.write(f"Issue: {identified_issue if identified_issue else 'No issue identified'}")
+        #st.write("Troubleshooting: List of issues for the identified product and subproduct:")
+        #st.write(issues)
 
     else:
         st.chat_message("assistant").write(response)  # Default response when no category is identified
