@@ -15,6 +15,8 @@ st.title("💬 Financial Support Chatbot")
 url = st.text_input("Enter the GitHub raw URL of the CSV file:", 
                     "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv")
 
+st.write(url)
+
 # Load the dataset if a valid URL is provided
 if url:
     try:
