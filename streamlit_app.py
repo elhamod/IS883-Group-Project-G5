@@ -12,8 +12,8 @@ st.title("💬 Financial Support Chatbot")
 
 
 # Add a text input field for the GitHub raw URL
-url = st.text_input("Enter the GitHub raw URL of the CSV file:", 
-                    "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv")
+#url = st.text_input("Enter the GitHub raw URL of the CSV file:", "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv")
+url = "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv"
 
 st.write(url)
 
