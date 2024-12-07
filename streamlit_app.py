@@ -30,23 +30,6 @@ product_categories = df1['Product'].unique().tolist()
 
 st.write(product_categories)
 
-catsubpro = ['Credit card debt', 'Credit reporting', 'Conventional home mortgage', 'Checking account', 'Domestic (US) money transfer', 'FHA mortgage', 'Credit repair services',
- 'Other type of mortgage', 'General-purpose credit card or charge card', 'Home equity loan or line of credit (HELOC)', 'Loan', 'Other debt', 'General-purpose prepaid card',
- 'Lease', 'Medical', 'Personal line of credit', 'Other personal consumer report', 'Private student loan', 'Conventional fixed mortgage', 'Medical debt', 'Mobile or digital wallet',
- 'I do not know', 'Other bank product/service', 'International money transfer', 'Vehicle loan', 'Other (i.e. phone, health club, etc.)', 'Credit card', 'VA mortgage',
- 'Payday loan', 'Store credit card', 'Federal student loan servicing', 'Savings account', 'CD (Certificate of Deposit)', 'Installment loan', 'Other mortgage',
- 'Other banking product or service', 'Vehicle lease', 'Auto debt', 'Conventional adjustable mortgage (ARM)', 'Payday loan debt', 'Virtual currency', 'Reverse mortgage',
- 'Federal student loan debt', "Traveler's check or cashier's check", 'Cashing a check without an account', 'Payroll card', 'Non-federal student loan', 'Government benefit card',
- 'Mortgage debt', 'Private student loan debt', 'Title loan', 'ID prepaid card', 'Federal student loan', 'Auto', 'Home equity loan or line of credit', 'Mortgage',
- 'Debt settlement', 'General purpose card', 'Government benefit payment card', 'Mobile wallet', 'Check cashing', 'Money order', '(CD) Certificate of deposit', 'Check cashing service',
- 'Pawn loan', 'Refund anticipation check', 'Telecommunications debt', 'Rental debt', 'Gift or merchant card', 'Foreign currency exchange', 'Gift card', 'Credit repair',
- 'Other special purpose card', 'Transit card', 'Traveler’s/Cashier’s checks', 'Electronic Benefit Transfer / EBT card', "Money order, traveler's check or cashier's check",
- 'USDA mortgage', 'Mortgage modification or foreclosure avoidance', 'Manufactured home loan', 'Student prepaid card', 'Other advances of future income', 'Student loan debt relief',
- 'Earned wage access', 'Tax refund anticipation loan or check']
-
-#st.write(f"Categories: {catsubpro}")
-
-
 
 ### Important part.
 # Create a session state variable to flag whether the app has been initialized.
@@ -79,7 +62,7 @@ if "memory" not in st.session_state: ### IMPORTANT.
     from langchain_core.prompts import ChatPromptTemplate
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", f"You are a financial support assistant. Begin by greeting the user warmly and asking them to describe their issue. Wait for the user to describe their problem. Once the issue is described, classify the complaint strictly based on these possible categories: {catsubpro}. Kindly inform the user that a ticket has been created, provide the category assigned to their complaint, and reassure them that the issue will be forwarded to the appropriate support team, who will reach out to them shortly. Maintain a professional and empathetic tone throughout."),
+            ("system", f"You are a financial support assistant. Begin by greeting the user warmly and asking them to describe their issue. Wait for the user to describe their problem. Once the issue is described, classify the complaint strictly based on these possible categories: {product_categories}. Kindly inform the user that a ticket has been created, provide the category assigned to their complaint, and reassure them that the issue will be forwarded to the appropriate support team, who will reach out to them shortly. Maintain a professional and empathetic tone throughout."),
             ("placeholder", "{chat_history}"),
             ("human", "{input}"),
             ("placeholder", "{agent_scratchpad}"),
