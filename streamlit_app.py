@@ -30,7 +30,7 @@ st.write(f"Categories: {catsubpro}")
 # Create a session state variable to flag whether the app has been initialized.
 # This code will only be run first time the app is loaded.
 if "memory" not in st.session_state: ### IMPORTANT.
-    model_type="gpt-4o"
+    model_type="gpt-4o-mini"
 
     # initialize the momory
     max_number_of_exchanges = 10
@@ -74,7 +74,7 @@ for message in st.session_state.memory.buffer:
 
 # Create a chat input field to allow the user to enter a message. This will display
 # automatically at the bottom of the page.
-if prompt := st.chat_input("What is up?"):
+if prompt := st.chat_input("How can I help?"):
     
     # question
     st.chat_message("user").write(prompt)
