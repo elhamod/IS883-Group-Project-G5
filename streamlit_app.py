@@ -19,8 +19,8 @@ url = st.text_input("Enter the GitHub raw URL of the CSV file:",
 if url:
     try:
         df1 = pd.read_csv(url)
-        st.write("CSV Data:")
-        st.write(df1)
+        #st.write("CSV Data:")
+        #st.write(df1)
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
