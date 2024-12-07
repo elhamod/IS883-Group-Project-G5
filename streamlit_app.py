@@ -174,10 +174,10 @@ if prompt := st.chat_input("How can I help?"):
         st.chat_message("assistant").write(unified_response)
 
         # Add a message to confirm the issue identification source
-        if issue_source == "LLM":
-            st.write("The issue was directly identified by the model.")
-        else:
-            st.write("The issue was not directly identified by the model. The most general category was selected.")
+        #if issue_source == "LLM":
+        #    st.write("The issue was directly identified by the model.")
+        #else:
+        #    st.write("The issue was not directly identified by the model. The most general category was selected.")
 
         # For troubleshooting purposes, print the identified product, subproduct, and issue
         #st.write("Troubleshooting: Identified Product, Subproduct, and Issue")
