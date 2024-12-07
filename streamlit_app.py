@@ -24,11 +24,7 @@ if url:
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
-st.write(df1)
-
 product_categories = df1['Product'].unique().tolist()
-
-st.write(product_categories)
 
 
 ### Important part.
