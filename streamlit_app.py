@@ -8,6 +8,27 @@ from langchain import hub
 st.title("💬 Financial Support Chatbot")
 
 ### Adding subproducts
+
+
+# Add a text input field for the GitHub raw URL
+url = st.text_input("Enter the GitHub raw URL of the CSV file:", 
+                    "https://raw.githubusercontent.com/JeanJMH/Financial_Classification/main/Classification_data.csv")
+
+# Load the dataset if a valid URL is provided
+if url:
+    try:
+        df1 = pd.read_csv(url)
+        st.write("CSV Data:")
+        st.write(df1)
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
+
+st.write(df1)
+
+product_categories = df1['Product'].unique().tolist()
+
+st.write(product_categories)
+
 catsubpro = ['Credit card debt', 'Credit reporting', 'Conventional home mortgage', 'Checking account', 'Domestic (US) money transfer', 'FHA mortgage', 'Credit repair services',
  'Other type of mortgage', 'General-purpose credit card or charge card', 'Home equity loan or line of credit (HELOC)', 'Loan', 'Other debt', 'General-purpose prepaid card',
  'Lease', 'Medical', 'Personal line of credit', 'Other personal consumer report', 'Private student loan', 'Conventional fixed mortgage', 'Medical debt', 'Mobile or digital wallet',
@@ -22,7 +43,7 @@ catsubpro = ['Credit card debt', 'Credit reporting', 'Conventional home mortgage
  'USDA mortgage', 'Mortgage modification or foreclosure avoidance', 'Manufactured home loan', 'Student prepaid card', 'Other advances of future income', 'Student loan debt relief',
  'Earned wage access', 'Tax refund anticipation loan or check']
 
-st.write(f"Categories: {catsubpro}")
+#st.write(f"Categories: {catsubpro}")
 
 
 
