@@ -1,0 +1,408 @@
+﻿,Product,Sub-product,Issue
+241,Prepaid card,General-purpose prepaid card,Advertising
+290,Prepaid card,Payroll card,Advertising
+351,Prepaid card,Government benefit card,Advertising
+387,Prepaid card,Gift card,Advertising
+394,Prepaid card,Student prepaid card,Advertising
+113,Credit card,Store credit card,"Advertising and marketing, including promotional offers"
+122,Credit card,General-purpose credit card or charge card,"Advertising and marketing, including promotional offers"
+78,Mortgage,Conventional home mortgage,Applying for a mortgage or refinancing an existing mortgage
+139,Mortgage,FHA mortgage,Applying for a mortgage or refinancing an existing mortgage
+144,Mortgage,USDA mortgage,Applying for a mortgage or refinancing an existing mortgage
+148,Mortgage,Home equity loan or line of credit (HELOC),Applying for a mortgage or refinancing an existing mortgage
+204,Mortgage,Other type of mortgage,Applying for a mortgage or refinancing an existing mortgage
+243,Mortgage,VA mortgage,Applying for a mortgage or refinancing an existing mortgage
+306,Mortgage,Manufactured home loan,Applying for a mortgage or refinancing an existing mortgage
+374,Mortgage,Reverse mortgage,Applying for a mortgage or refinancing an existing mortgage
+5,Debt collection,I do not know,Attempts to collect debt not owed
+13,Debt collection,Medical debt,Attempts to collect debt not owed
+25,Debt collection,Telecommunications debt,Attempts to collect debt not owed
+29,Debt collection,Other debt,Attempts to collect debt not owed
+33,Debt collection,Rental debt,Attempts to collect debt not owed
+40,Debt collection,Credit card debt,Attempts to collect debt not owed
+65,Debt collection,Auto debt,Attempts to collect debt not owed
+83,Debt collection,Private student loan debt,Attempts to collect debt not owed
+125,Debt collection,Mortgage debt,Attempts to collect debt not owed
+227,Debt collection,Federal student loan debt,Attempts to collect debt not owed
+245,Debt collection,Payday loan debt,Attempts to collect debt not owed
+262,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Can't contact lender or servicer
+294,"Payday loan, title loan, personal loan, or advance loan",Title loan,Can't contact lender or servicer
+167,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Can't stop withdrawals from your bank account
+346,"Payday loan, title loan, personal loan, or advance loan",Title loan,Can't stop withdrawals from your bank account
+74,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Charged fees or interest you didn't expect
+96,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Charged fees or interest you didn't expect
+179,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Charged fees or interest you didn't expect
+199,"Payday loan, title loan, personal loan, or advance loan",Title loan,Charged fees or interest you didn't expect
+233,"Payday loan, title loan, personal loan, or advance loan",Pawn loan,Charged fees or interest you didn't expect
+103,Debt or credit management,Debt settlement,Charged upfront or unexpected fees
+159,Debt or credit management,Credit repair services,Charged upfront or unexpected fees
+178,Debt or credit management,Mortgage modification or foreclosure avoidance,Charged upfront or unexpected fees
+12,Checking or savings account,Checking account,Closing an account
+72,Checking or savings account,Savings account,Closing an account
+102,Checking or savings account,Other banking product or service,Closing an account
+214,Checking or savings account,CD (Certificate of Deposit),Closing an account
+82,Mortgage,Conventional home mortgage,Closing on a mortgage
+147,Mortgage,VA mortgage,Closing on a mortgage
+165,Mortgage,Home equity loan or line of credit (HELOC),Closing on a mortgage
+198,Mortgage,Reverse mortgage,Closing on a mortgage
+211,Mortgage,FHA mortgage,Closing on a mortgage
+225,Mortgage,Other type of mortgage,Closing on a mortgage
+376,Mortgage,Manufactured home loan,Closing on a mortgage
+45,Credit card,General-purpose credit card or charge card,Closing your account
+67,Credit card,Store credit card,Closing your account
+53,Debt collection,Telecommunications debt,Communication tactics
+84,Debt collection,Medical debt,Communication tactics
+100,Debt collection,Rental debt,Communication tactics
+133,Debt collection,Other debt,Communication tactics
+136,Debt collection,I do not know,Communication tactics
+137,Debt collection,Credit card debt,Communication tactics
+142,Debt collection,Auto debt,Communication tactics
+173,Debt collection,Payday loan debt,Communication tactics
+261,Debt collection,Private student loan debt,Communication tactics
+324,Debt collection,Federal student loan debt,Communication tactics
+349,Debt collection,Mortgage debt,Communication tactics
+59,Debt or credit management,Debt settlement,Confusing or misleading advertising or marketing
+221,Debt or credit management,Credit repair services,Confusing or misleading advertising or marketing
+246,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Confusing or misleading advertising or marketing
+313,"Payday loan, title loan, personal loan, or advance loan",Earned wage access,Confusing or misleading advertising or marketing
+321,"Payday loan, title loan, personal loan, or advance loan",Other advances of future income,Confusing or misleading advertising or marketing
+334,"Money transfer, virtual currency, or money service",Check cashing service,Confusing or misleading advertising or marketing
+352,Debt or credit management,Mortgage modification or foreclosure avoidance,Confusing or misleading advertising or marketing
+366,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Confusing or misleading advertising or marketing
+396,"Money transfer, virtual currency, or money service",Foreign currency exchange,Confusing or misleading advertising or marketing
+403,Debt or credit management,Student loan debt relief,Confusing or misleading advertising or marketing
+116,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Confusing or missing disclosures
+149,"Money transfer, virtual currency, or money service",Virtual currency,Confusing or missing disclosures
+156,Debt or credit management,Credit repair services,Confusing or missing disclosures
+212,Debt or credit management,Debt settlement,Confusing or missing disclosures
+239,"Payday loan, title loan, personal loan, or advance loan",Earned wage access,Confusing or missing disclosures
+258,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Confusing or missing disclosures
+265,"Money transfer, virtual currency, or money service",Check cashing service,Confusing or missing disclosures
+274,"Money transfer, virtual currency, or money service",International money transfer,Confusing or missing disclosures
+289,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Confusing or missing disclosures
+297,"Payday loan, title loan, personal loan, or advance loan",Other advances of future income,Confusing or missing disclosures
+318,Debt or credit management,Mortgage modification or foreclosure avoidance,Confusing or missing disclosures
+344,"Money transfer, virtual currency, or money service",Foreign currency exchange,Confusing or missing disclosures
+367,Debt or credit management,Student loan debt relief,Confusing or missing disclosures
+339,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Credit limit changed
+2,Credit reporting or other personal consumer reports,Credit reporting,Credit monitoring or identity theft protection services
+160,Checking or savings account,Checking account,Credit monitoring or identity theft protection services
+222,Mortgage,Conventional home mortgage,Credit monitoring or identity theft protection services
+237,Credit card,General-purpose credit card or charge card,Credit monitoring or identity theft protection services
+259,Checking or savings account,Other banking product or service,Credit monitoring or identity theft protection services
+273,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Credit monitoring or identity theft protection services
+316,Vehicle loan or lease,Loan,Credit monitoring or identity theft protection services
+362,Credit card,Store credit card,Credit monitoring or identity theft protection services
+364,Student loan,Federal student loan servicing,Credit monitoring or identity theft protection services
+368,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Credit monitoring or identity theft protection services
+378,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Credit monitoring or identity theft protection services
+388,Mortgage,FHA mortgage,Credit monitoring or identity theft protection services
+389,Student loan,Private student loan,Credit monitoring or identity theft protection services
+405,Checking or savings account,Savings account,Credit monitoring or identity theft protection services
+8,Student loan,Private student loan,Dealing with your lender or servicer
+15,Student loan,Federal student loan servicing,Dealing with your lender or servicer
+90,Debt or credit management,Mortgage modification or foreclosure avoidance,Didn't provide services promised
+132,Debt or credit management,Debt settlement,Didn't provide services promised
+207,Debt or credit management,Credit repair services,Didn't provide services promised
+217,Debt or credit management,Student loan debt relief,Didn't provide services promised
+66,Debt collection,Rental debt,Electronic communications
+112,Debt collection,I do not know,Electronic communications
+161,Debt collection,Credit card debt,Electronic communications
+202,Debt collection,Telecommunications debt,Electronic communications
+224,Debt collection,Auto debt,Electronic communications
+232,Debt collection,Other debt,Electronic communications
+251,Debt collection,Medical debt,Electronic communications
+310,Debt collection,Federal student loan debt,Electronic communications
+336,Debt collection,Payday loan debt,Electronic communications
+365,Debt collection,Private student loan debt,Electronic communications
+21,Debt collection,I do not know,False statements or representation
+22,Debt collection,Auto debt,False statements or representation
+34,Debt collection,Other debt,False statements or representation
+73,Debt collection,Private student loan debt,False statements or representation
+88,Debt collection,Rental debt,False statements or representation
+92,Debt collection,Medical debt,False statements or representation
+115,Debt collection,Telecommunications debt,False statements or representation
+121,Debt collection,Credit card debt,False statements or representation
+130,Debt collection,Payday loan debt,False statements or representation
+209,Debt collection,Mortgage debt,False statements or representation
+307,Debt collection,Federal student loan debt,False statements or representation
+19,Credit card,Store credit card,Fees or interest
+38,Credit card,General-purpose credit card or charge card,Fees or interest
+44,"Money transfer, virtual currency, or money service",Virtual currency,Fraud or scam
+48,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Fraud or scam
+79,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Fraud or scam
+163,"Money transfer, virtual currency, or money service",International money transfer,Fraud or scam
+195,"Money transfer, virtual currency, or money service",Check cashing service,Fraud or scam
+200,"Money transfer, virtual currency, or money service",Foreign currency exchange,Fraud or scam
+256,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Fraud or scam
+46,Credit card,General-purpose credit card or charge card,Getting a credit card
+97,Credit card,Store credit card,Getting a credit card
+180,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Getting a line of credit
+176,Student loan,Private student loan,Getting a loan
+26,Vehicle loan or lease,Loan,Getting a loan or lease
+109,Vehicle loan or lease,Lease,Getting a loan or lease
+114,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Getting the loan
+57,Credit reporting or other personal consumer reports,Other personal consumer report,Identity theft protection or other monitoring services
+6,Credit reporting or other personal consumer reports,Credit reporting,Improper use of your report
+60,Credit card,General-purpose credit card or charge card,Improper use of your report
+63,Credit reporting or other personal consumer reports,Other personal consumer report,Improper use of your report
+174,Vehicle loan or lease,Loan,Improper use of your report
+235,Mortgage,Conventional home mortgage,Improper use of your report
+238,Credit card,Store credit card,Improper use of your report
+249,Student loan,Federal student loan servicing,Improper use of your report
+253,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Improper use of your report
+300,Vehicle loan or lease,Lease,Improper use of your report
+303,Checking or savings account,Checking account,Improper use of your report
+315,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Improper use of your report
+319,Student loan,Private student loan,Improper use of your report
+326,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Improper use of your report
+345,Mortgage,Home equity loan or line of credit (HELOC),Improper use of your report
+354,Mortgage,VA mortgage,Improper use of your report
+363,Checking or savings account,Savings account,Improper use of your report
+371,Mortgage,FHA mortgage,Improper use of your report
+380,Checking or savings account,Other banking product or service,Improper use of your report
+382,Mortgage,Manufactured home loan,Improper use of your report
+385,Mortgage,Other type of mortgage,Improper use of your report
+399,"Payday loan, title loan, personal loan, or advance loan",Title loan,Improper use of your report
+228,"Money transfer, virtual currency, or money service",Foreign currency exchange,Incorrect exchange rate
+0,Credit reporting or other personal consumer reports,Credit reporting,Incorrect information on your report
+23,Credit reporting or other personal consumer reports,Other personal consumer report,Incorrect information on your report
+35,Credit card,General-purpose credit card or charge card,Incorrect information on your report
+91,Mortgage,Conventional home mortgage,Incorrect information on your report
+99,Vehicle loan or lease,Loan,Incorrect information on your report
+135,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Incorrect information on your report
+151,Credit card,Store credit card,Incorrect information on your report
+164,Student loan,Federal student loan servicing,Incorrect information on your report
+181,Mortgage,FHA mortgage,Incorrect information on your report
+184,Checking or savings account,Checking account,Incorrect information on your report
+189,Student loan,Private student loan,Incorrect information on your report
+220,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Incorrect information on your report
+229,Vehicle loan or lease,Lease,Incorrect information on your report
+278,Mortgage,USDA mortgage,Incorrect information on your report
+286,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Incorrect information on your report
+288,Mortgage,VA mortgage,Incorrect information on your report
+322,Mortgage,Home equity loan or line of credit (HELOC),Incorrect information on your report
+342,Checking or savings account,CD (Certificate of Deposit),Incorrect information on your report
+353,"Payday loan, title loan, personal loan, or advance loan",Title loan,Incorrect information on your report
+377,Mortgage,Manufactured home loan,Incorrect information on your report
+379,Mortgage,Other type of mortgage,Incorrect information on your report
+392,Checking or savings account,Other banking product or service,Incorrect information on your report
+402,Checking or savings account,Savings account,Incorrect information on your report
+264,Student loan,Private student loan,Issue where my lender is my school
+87,Student loan,Private student loan,Issue with income share agreement
+143,"Payday loan, title loan, personal loan, or advance loan",Other advances of future income,Issues with repayment
+327,"Payday loan, title loan, personal loan, or advance loan",Earned wage access,Issues with repayment
+279,"Payday loan, title loan, personal loan, or advance loan",Title loan,Loan payment wasn't credited to your account
+314,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Loan payment wasn't credited to your account
+219,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Lost or stolen money order
+356,"Payday loan, title loan, personal loan, or advance loan",Tax refund anticipation loan or check,Lost or stolen refund
+4,Checking or savings account,Checking account,Managing an account
+47,Checking or savings account,Other banking product or service,Managing an account
+86,Checking or savings account,Savings account,Managing an account
+119,Checking or savings account,CD (Certificate of Deposit),Managing an account
+7,Vehicle loan or lease,Loan,Managing the loan or lease
+76,Vehicle loan or lease,Lease,Managing the loan or lease
+107,"Money transfer, virtual currency, or money service",Mobile or digital wallet,"Managing, opening, or closing your mobile wallet account"
+20,"Money transfer, virtual currency, or money service",International money transfer,Money was not available when promised
+28,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Money was not available when promised
+170,"Money transfer, virtual currency, or money service",Virtual currency,Money was not available when promised
+282,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Money was taken from your bank account on the wrong day or for the wrong amount
+370,"Payday loan, title loan, personal loan, or advance loan",Title loan,Money was taken from your bank account on the wrong day or for the wrong amount
+9,Checking or savings account,Checking account,Opening an account
+186,Checking or savings account,Savings account,Opening an account
+203,Checking or savings account,Other banking product or service,Opening an account
+272,Checking or savings account,CD (Certificate of Deposit),Opening an account
+18,Credit card,General-purpose credit card or charge card,"Other features, terms, or problems"
+50,Credit card,Store credit card,"Other features, terms, or problems"
+182,"Money transfer, virtual currency, or money service",Virtual currency,Other service problem
+236,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Other service problem
+312,"Money transfer, virtual currency, or money service",International money transfer,Other service problem
+32,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Other transaction problem
+80,"Money transfer, virtual currency, or money service",Virtual currency,Other transaction problem
+98,"Money transfer, virtual currency, or money service",International money transfer,Other transaction problem
+386,"Money transfer, virtual currency, or money service",Mobile or digital wallet,"Overdraft, savings, or rewards features"
+226,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Problem adding money
+101,Checking or savings account,Checking account,Problem caused by your funds being low
+111,Checking or savings account,Other banking product or service,Problem caused by your funds being low
+127,Checking or savings account,Savings account,Problem caused by your funds being low
+162,Prepaid card,Government benefit card,Problem getting a card or closing an account
+177,Prepaid card,General-purpose prepaid card,Problem getting a card or closing an account
+296,Prepaid card,Payroll card,Problem getting a card or closing an account
+329,Prepaid card,Gift card,Problem getting a card or closing an account
+54,Credit card,Store credit card,Problem when making payments
+61,Credit card,General-purpose credit card or charge card,Problem when making payments
+120,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Problem when making payments
+213,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem when making payments
+64,Credit reporting or other personal consumer reports,Other personal consumer report,Problem with a company's investigation into an existing issue
+1,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing problem
+69,Credit card,General-purpose credit card or charge card,Problem with a company's investigation into an existing problem
+134,Credit card,Store credit card,Problem with a company's investigation into an existing problem
+141,Vehicle loan or lease,Loan,Problem with a company's investigation into an existing problem
+153,Mortgage,Conventional home mortgage,Problem with a company's investigation into an existing problem
+187,Checking or savings account,Checking account,Problem with a company's investigation into an existing problem
+193,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Problem with a company's investigation into an existing problem
+223,Mortgage,Reverse mortgage,Problem with a company's investigation into an existing problem
+247,Mortgage,Home equity loan or line of credit (HELOC),Problem with a company's investigation into an existing problem
+250,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem with a company's investigation into an existing problem
+263,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Problem with a company's investigation into an existing problem
+268,Student loan,Private student loan,Problem with a company's investigation into an existing problem
+271,Vehicle loan or lease,Lease,Problem with a company's investigation into an existing problem
+276,Checking or savings account,CD (Certificate of Deposit),Problem with a company's investigation into an existing problem
+291,Student loan,Federal student loan servicing,Problem with a company's investigation into an existing problem
+308,Mortgage,VA mortgage,Problem with a company's investigation into an existing problem
+337,Mortgage,Other type of mortgage,Problem with a company's investigation into an existing problem
+338,Mortgage,FHA mortgage,Problem with a company's investigation into an existing problem
+357,Checking or savings account,Other banking product or service,Problem with a company's investigation into an existing problem
+369,Checking or savings account,Savings account,Problem with a company's investigation into an existing problem
+398,Mortgage,Manufactured home loan,Problem with a company's investigation into an existing problem
+31,Checking or savings account,Checking account,Problem with a lender or other company charging your account
+145,Checking or savings account,Savings account,Problem with a lender or other company charging your account
+157,Checking or savings account,Other banking product or service,Problem with a lender or other company charging your account
+58,Prepaid card,General-purpose prepaid card,Problem with a purchase or transfer
+171,Prepaid card,Government benefit card,Problem with a purchase or transfer
+252,Prepaid card,Payroll card,Problem with a purchase or transfer
+257,Prepaid card,Gift card,Problem with a purchase or transfer
+400,Prepaid card,Student prepaid card,Problem with a purchase or transfer
+14,Credit card,General-purpose credit card or charge card,Problem with a purchase shown on your statement
+52,Credit card,Store credit card,Problem with a purchase shown on your statement
+68,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem with additional add-on products or services
+192,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Problem with additional add-on products or services
+293,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem with cash advance
+81,Debt or credit management,Debt settlement,Problem with customer service
+191,"Money transfer, virtual currency, or money service",Check cashing service,Problem with customer service
+201,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Problem with customer service
+216,Debt or credit management,Credit repair services,Problem with customer service
+328,"Money transfer, virtual currency, or money service",Foreign currency exchange,Problem with customer service
+381,Debt or credit management,Mortgage modification or foreclosure avoidance,Problem with customer service
+37,Credit reporting or other personal consumer reports,Credit reporting,Problem with fraud alerts or security freezes
+240,Credit card,General-purpose credit card or charge card,Problem with fraud alerts or security freezes
+305,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Problem with fraud alerts or security freezes
+309,Checking or savings account,Checking account,Problem with fraud alerts or security freezes
+332,Credit card,Store credit card,Problem with fraud alerts or security freezes
+343,Vehicle loan or lease,Loan,Problem with fraud alerts or security freezes
+361,Checking or savings account,Other banking product or service,Problem with fraud alerts or security freezes
+372,Student loan,Federal student loan servicing,Problem with fraud alerts or security freezes
+383,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Problem with fraud alerts or security freezes
+384,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem with fraud alerts or security freezes
+393,Mortgage,FHA mortgage,Problem with fraud alerts or security freezes
+395,Checking or savings account,CD (Certificate of Deposit),Problem with fraud alerts or security freezes
+397,Checking or savings account,Savings account,Problem with fraud alerts or security freezes
+406,Mortgage,Manufactured home loan,Problem with fraud alerts or security freezes
+347,Prepaid card,General-purpose prepaid card,Problem with overdraft
+348,Prepaid card,Government benefit card,Problem with overdraft
+391,Prepaid card,Payroll card,Problem with overdraft
+126,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Problem with the payoff process at the end of the loan
+155,"Payday loan, title loan, personal loan, or advance loan",Title loan,Problem with the payoff process at the end of the loan
+194,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Problem with the payoff process at the end of the loan
+298,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Problem with the payoff process at the end of the loan
+70,Vehicle loan or lease,Lease,Problems at the end of the loan or lease
+93,Vehicle loan or lease,Loan,Problems at the end of the loan or lease
+299,"Payday loan, title loan, personal loan, or advance loan",Other advances of future income,Problems receiving the advance
+311,"Payday loan, title loan, personal loan, or advance loan",Earned wage access,Problems receiving the advance
+131,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Received a loan you didn't apply for
+260,"Payday loan, title loan, personal loan, or advance loan",Title loan,Received a loan you didn't apply for
+49,Vehicle loan or lease,Loan,Repossession
+55,Vehicle loan or lease,Lease,Repossession
+30,Mortgage,FHA mortgage,Struggling to pay mortgage
+43,Mortgage,Conventional home mortgage,Struggling to pay mortgage
+104,Mortgage,Home equity loan or line of credit (HELOC),Struggling to pay mortgage
+138,Mortgage,Reverse mortgage,Struggling to pay mortgage
+152,Mortgage,VA mortgage,Struggling to pay mortgage
+215,Mortgage,Other type of mortgage,Struggling to pay mortgage
+248,Mortgage,Manufactured home loan,Struggling to pay mortgage
+330,Mortgage,USDA mortgage,Struggling to pay mortgage
+124,Credit card,General-purpose credit card or charge card,Struggling to pay your bill
+168,Credit card,Store credit card,Struggling to pay your bill
+140,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Struggling to pay your loan
+169,Vehicle loan or lease,Lease,Struggling to pay your loan
+185,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Struggling to pay your loan
+210,Vehicle loan or lease,Loan,Struggling to pay your loan
+266,"Payday loan, title loan, personal loan, or advance loan",Payday loan,Struggling to pay your loan
+295,"Payday loan, title loan, personal loan, or advance loan",Title loan,Struggling to pay your loan
+16,Student loan,Federal student loan servicing,Struggling to repay your loan
+71,Student loan,Private student loan,Struggling to repay your loan
+75,Debt collection,Credit card debt,Threatened to contact someone or share information improperly
+89,Debt collection,Other debt,Threatened to contact someone or share information improperly
+190,Debt collection,I do not know,Threatened to contact someone or share information improperly
+206,Debt collection,Payday loan debt,Threatened to contact someone or share information improperly
+267,Debt collection,Rental debt,Threatened to contact someone or share information improperly
+275,Debt collection,Medical debt,Threatened to contact someone or share information improperly
+283,Debt collection,Private student loan debt,Threatened to contact someone or share information improperly
+301,Debt collection,Telecommunications debt,Threatened to contact someone or share information improperly
+317,Debt collection,Mortgage debt,Threatened to contact someone or share information improperly
+320,Debt collection,Auto debt,Threatened to contact someone or share information improperly
+401,Debt collection,Federal student loan debt,Threatened to contact someone or share information improperly
+3,Debt collection,Telecommunications debt,Took or threatened to take negative or legal action
+24,Debt collection,I do not know,Took or threatened to take negative or legal action
+51,Debt collection,Payday loan debt,Took or threatened to take negative or legal action
+56,Debt collection,Auto debt,Took or threatened to take negative or legal action
+110,Debt collection,Other debt,Took or threatened to take negative or legal action
+128,Debt collection,Credit card debt,Took or threatened to take negative or legal action
+146,Debt collection,Rental debt,Took or threatened to take negative or legal action
+183,Debt collection,Mortgage debt,Took or threatened to take negative or legal action
+197,Debt collection,Medical debt,Took or threatened to take negative or legal action
+304,Debt collection,Private student loan debt,Took or threatened to take negative or legal action
+333,Debt collection,Federal student loan debt,Took or threatened to take negative or legal action
+150,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Trouble accessing funds in your mobile or digital wallet
+10,Mortgage,Conventional home mortgage,Trouble during payment process
+39,Mortgage,VA mortgage,Trouble during payment process
+77,Mortgage,Home equity loan or line of credit (HELOC),Trouble during payment process
+105,Mortgage,Reverse mortgage,Trouble during payment process
+106,Mortgage,Other type of mortgage,Trouble during payment process
+117,Mortgage,FHA mortgage,Trouble during payment process
+254,Mortgage,USDA mortgage,Trouble during payment process
+269,Mortgage,Manufactured home loan,Trouble during payment process
+129,Prepaid card,Gift card,Trouble using the card
+172,Prepaid card,General-purpose prepaid card,Trouble using the card
+234,Prepaid card,Government benefit card,Trouble using the card
+285,Prepaid card,Payroll card,Trouble using the card
+62,Credit card,General-purpose credit card or charge card,Trouble using your card
+166,Credit card,Store credit card,Trouble using your card
+17,Credit reporting or other personal consumer reports,Credit reporting,Unable to get your credit report or credit score
+123,Student loan,Federal student loan servicing,Unable to get your credit report or credit score
+231,Vehicle loan or lease,Loan,Unable to get your credit report or credit score
+284,Credit card,Store credit card,Unable to get your credit report or credit score
+323,"Payday loan, title loan, personal loan, or advance loan",Installment loan,Unable to get your credit report or credit score
+340,Mortgage,Home equity loan or line of credit (HELOC),Unable to get your credit report or credit score
+341,Checking or savings account,Other banking product or service,Unable to get your credit report or credit score
+359,"Payday loan, title loan, personal loan, or advance loan",Personal line of credit,Unable to get your credit report or credit score
+360,Credit card,General-purpose credit card or charge card,Unable to get your credit report or credit score
+373,Checking or savings account,Checking account,Unable to get your credit report or credit score
+404,Student loan,Private student loan,Unable to get your credit report or credit score
+85,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Unauthorized transactions or other transaction problem
+175,Debt or credit management,Debt settlement,Unauthorized withdrawals or charges
+375,Debt or credit management,Mortgage modification or foreclosure avoidance,Unauthorized withdrawals or charges
+390,Debt or credit management,Student loan debt relief,Unauthorized withdrawals or charges
+292,"Payday loan, title loan, personal loan, or advance loan",Other advances of future income,Unexpected fees
+331,"Payday loan, title loan, personal loan, or advance loan",Earned wage access,Unexpected fees
+350,"Payday loan, title loan, personal loan, or advance loan",Tax refund anticipation loan or check,Unexpected fees
+108,Prepaid card,Government benefit card,Unexpected or other fees
+188,"Money transfer, virtual currency, or money service",Virtual currency,Unexpected or other fees
+196,Prepaid card,Payroll card,Unexpected or other fees
+208,Prepaid card,General-purpose prepaid card,Unexpected or other fees
+218,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Unexpected or other fees
+255,"Money transfer, virtual currency, or money service",Foreign currency exchange,Unexpected or other fees
+277,"Money transfer, virtual currency, or money service",Mobile or digital wallet,Unexpected or other fees
+280,Prepaid card,Gift card,Unexpected or other fees
+287,"Money transfer, virtual currency, or money service",International money transfer,Unexpected or other fees
+302,"Money transfer, virtual currency, or money service","Money order, traveler's check or cashier's check",Unexpected or other fees
+335,"Money transfer, virtual currency, or money service",Check cashing service,Unexpected or other fees
+358,Prepaid card,Student prepaid card,Unexpected or other fees
+355,"Payday loan, title loan, personal loan, or advance loan",Title loan,Vehicle was damaged or destroyed the vehicle
+270,"Payday loan, title loan, personal loan, or advance loan",Title loan,Vehicle was repossessed or sold the vehicle
+230,"Payday loan, title loan, personal loan, or advance loan",Title loan,"Was approved for a loan, but didn't receive money"
+158,"Payday loan, title loan, personal loan, or advance loan",Payday loan,"Was approved for a loan, but didn't receive the money"
+11,Debt collection,I do not know,Written notification about debt
+27,Debt collection,Credit card debt,Written notification about debt
+41,Debt collection,Rental debt,Written notification about debt
+42,Debt collection,Telecommunications debt,Written notification about debt
+94,Debt collection,Medical debt,Written notification about debt
+95,Debt collection,Payday loan debt,Written notification about debt
+118,Debt collection,Other debt,Written notification about debt
+154,Debt collection,Federal student loan debt,Written notification about debt
+205,Debt collection,Auto debt,Written notification about debt
+244,Debt collection,Private student loan debt,Written notification about debt
+281,Debt collection,Mortgage debt,Written notification about debt
+36,"Money transfer, virtual currency, or money service",Domestic (US) money transfer,Wrong amount charged or received
+242,"Money transfer, virtual currency, or money service",International money transfer,Wrong amount charged or received
+325,"Money transfer, virtual currency, or money service",Virtual currency,Wrong amount charged or received
