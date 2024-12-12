@@ -222,8 +222,8 @@ if (
     try:
         # Setup Jira API credentials
         os.environ["JIRA_API_TOKEN"] = st.secrets["JIRA_API_TOKEN"]
-        os.environ["JIRA_USERNAME"] = "rich@bu.edu"
-        os.environ["JIRA_INSTANCE_URL"] = "https://is883-genai-r.atlassian.net/"
+        os.environ["JIRA_USERNAME"] = "mentormohannad@gmail.com"
+        os.environ["JIRA_INSTANCE_URL"] = "https://mohannadelhamod.atlassian.net/"
         os.environ["JIRA_CLOUD"] = "True"
 
         # Extract user description from memory buffer
